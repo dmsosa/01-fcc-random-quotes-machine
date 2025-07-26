@@ -45,3 +45,7 @@ body {
     align-items: center;
 }
 @include applyTheme('theme-1', $theme-1);
+@include applyTheme('theme-2', $theme-2);
+@include applyTheme('theme-3', $theme-3);
+@include applyTheme('theme-4', $theme-4);
+@include applyTheme('theme-5', $theme-5);

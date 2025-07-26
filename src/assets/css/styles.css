@@ -11866,6 +11866,14 @@ textarea.form-control-lg {
   box-shadow: 0px 0px 0.25rem 0.2rem #222;
 }
 
+.text-right {
+  text-align: right !important;
+}
+
+.border-radius-0 {
+  border-radius: 0 !important;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11882,17 +11890,87 @@ body {
 }
 
 .theme-1 {
-  background-color: #295e86;
+  background-color: #29862e;
   color: whitesmoke;
+  transition: background-color 0.4s ease;
 }
 .theme-1 .bg-2 {
-  background-color: #436d90;
+  background-color: #519043;
+  transition: background-color 0.4s ease;
 }
 .theme-1 * {
-  border-color: #688093;
+  border-color: #045206;
+  transition: border-color 0.4s ease;
 }
 .theme-1 .border {
-  border-color: #688093 !important;
+  transition: border-color 0.4s ease;
+}
+
+.theme-2 {
+  background-color: #295e86;
+  color: whitesmoke;
+  transition: background-color 0.4s ease;
+}
+.theme-2 .bg-2 {
+  background-color: #436d90;
+  transition: background-color 0.4s ease;
+}
+.theme-2 * {
+  border-color: #688093;
+  transition: border-color 0.4s ease;
+}
+.theme-2 .border {
+  transition: border-color 0.4s ease;
+}
+
+.theme-3 {
+  color: whitesmoke;
+  transition: background-color 0.4s ease;
+}
+.theme-3 .bg-2 {
+  background-color: #e37d00;
+  transition: background-color 0.4s ease;
+}
+.theme-3 * {
+  border-color: #623b00;
+  transition: border-color 0.4s ease;
+}
+.theme-3 .border {
+  transition: border-color 0.4s ease;
+}
+
+.theme-4 {
+  background-color: #ba1ecb;
+  color: whitesmoke;
+  transition: background-color 0.4s ease;
+}
+.theme-4 .bg-2 {
+  background-color: #560f52;
+  transition: background-color 0.4s ease;
+}
+.theme-4 * {
+  border-color: #530a36;
+  transition: border-color 0.4s ease;
+}
+.theme-4 .border {
+  transition: border-color 0.4s ease;
+}
+
+.theme-5 {
+  background-color: #29865e;
+  color: whitesmoke;
+  transition: background-color 0.4s ease;
+}
+.theme-5 .bg-2 {
+  background-color: #0de696;
+  transition: background-color 0.4s ease;
+}
+.theme-5 * {
+  border-color: #233e35;
+  transition: border-color 0.4s ease;
+}
+.theme-5 .border {
+  transition: border-color 0.4s ease;
 }
 
 /*# sourceMappingURL=styles.css.map */
